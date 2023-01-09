@@ -1,0 +1,41 @@
+# Project
+_tmp
+_checkpoints
+spark-warehouse
+env-local.env
+
+# System specific
+**/.DS_Store
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+*.iml
+*.ipr
+*.iws
+out
+
+*.class
+*.log
+
+# SBT specific
+# (may want to keep parts of 'project')
+project/boot/
+project/target/
+project/plugins/project/
+.bsp/
+
+bin/
+target/
+build/
+null/
+
+lib_managed/
+src_managed/
+
+.cache/
+.cache-main
+.history/
+.lib/
+dist/*
